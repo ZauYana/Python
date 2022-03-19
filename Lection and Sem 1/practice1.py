@@ -37,9 +37,8 @@ max_number = max(list)
 
 
 # 3. Вывести на экран числа от -N до N
-print('введите число')
-usernumber = int(input())
-count = -usernumber
-while (count <= usernumber):
-print('{0}'.format(count))
-count = count+1
+# print('введите число')
+# usernumber = int(input())
+# count = -usernumber
+# while (count <= usernumber):
+#     # print({0}.format(count))
