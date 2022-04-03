@@ -185,16 +185,16 @@
 
 """не стоит просто копировать список, так как меняя элемент в одном из списков, во втором тоже меняется"""
 
-list1 = [1, 2, 3, 4]
-print(list1.pop())   # удаление последнего элемента
-print(len(list1))
+# list1 = [1, 2, 3, 4]
+# print(list1.pop())   # удаление последнего элемента
+# print(len(list1))
 
-print(list1)
+# print(list1)
 
 
-print(list1.insert(2,11))   # добавление элемента в конкретное место
-print(list1)
+# print(list1.insert(2,11))   # добавление элемента в конкретное место
+# print(list1)
 
-print(list1.append(11))
-print(list1)
+# print(list1.append(11))
+# print(list1)
 
