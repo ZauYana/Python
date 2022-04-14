@@ -83,18 +83,24 @@ from random import randint
 # 16. Задать список из n чисел последовательности (1+1n)n и вывести на экран их сумму
 
 def create_list(n):
-    list_first = []
+    list_second = []
     i = 0
     while i <= n:
-        list_first.append((1+1*n)*n)
+        list_second.append((1+1*n)*n)
         i += 1
-    return list_first
+    return list_second
 
 
 def find_sum(some_list):
     sum_of_list = None
     for i in some_list:
-        sum_of_list +=
+        sum_of_list += some_list[i]
+    return sum_of_list    
+
+my_list = create_list(5)
+print(my_list)
+print(find_sum(my_list))
+
 
 
 # 17. Задать список из N элементов, заполненных числами из [-N, N].
